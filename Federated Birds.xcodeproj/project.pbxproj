@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		DF27C35B1C7486D600BAC3A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27C35A1C7486D600BAC3A5 /* main.m */; };
 		DF27C35E1C7486D600BAC3A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27C35D1C7486D600BAC3A5 /* AppDelegate.m */; };
-		DF27C3611C7486D600BAC3A5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27C3601C7486D600BAC3A5 /* FirstViewController.m */; };
-		DF27C3641C7486D600BAC3A5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27C3631C7486D600BAC3A5 /* SecondViewController.m */; };
 		DF27C3671C7486D600BAC3A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF27C3651C7486D600BAC3A5 /* Main.storyboard */; };
 		DF27C3691C7486D600BAC3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF27C3681C7486D600BAC3A5 /* Assets.xcassets */; };
 		DF27C36C1C7486D600BAC3A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF27C36A1C7486D600BAC3A5 /* LaunchScreen.storyboard */; };
+		DF27C3751C748A4100BAC3A5 /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27C3741C748A4100BAC3A5 /* CommonTableViewController.m */; };
+		DF27C37B1C74A81500BAC3A5 /* ReadingListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27C37A1C74A81500BAC3A5 /* ReadingListTableViewController.m */; };
+		DF27C37E1C74ACAA00BAC3A5 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27C37D1C74ACAA00BAC3A5 /* FBSession.m */; };
+		DFD7DBE71C75B57A0059C1DE /* FBDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7DBE61C75B57A0059C1DE /* FBDataProvider.m */; };
+		DFD89A221C75B69D00CE5A0D /* AllTweetsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD89A211C75B69D00CE5A0D /* AllTweetsTableViewController.m */; };
+		DFD89A251C75B91600CE5A0D /* PostUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD89A241C75B91600CE5A0D /* PostUIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +25,22 @@
 		DF27C35A1C7486D600BAC3A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF27C35C1C7486D600BAC3A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF27C35D1C7486D600BAC3A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF27C35F1C7486D600BAC3A5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		DF27C3601C7486D600BAC3A5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DF27C3621C7486D600BAC3A5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DF27C3631C7486D600BAC3A5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DF27C3661C7486D600BAC3A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF27C3681C7486D600BAC3A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF27C36B1C7486D600BAC3A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF27C36D1C7486D600BAC3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF27C3731C748A4100BAC3A5 /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		DF27C3741C748A4100BAC3A5 /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		DF27C3791C74A81500BAC3A5 /* ReadingListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingListTableViewController.h; sourceTree = "<group>"; };
+		DF27C37A1C74A81500BAC3A5 /* ReadingListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingListTableViewController.m; sourceTree = "<group>"; };
+		DF27C37C1C74ACAA00BAC3A5 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBSession.h; path = ../../Session0/Session0/FBSession.h; sourceTree = "<group>"; };
+		DF27C37D1C74ACAA00BAC3A5 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBSession.m; path = ../../Session0/Session0/FBSession.m; sourceTree = "<group>"; };
+		DFD7DBE51C75B57A0059C1DE /* FBDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDataProvider.h; sourceTree = "<group>"; };
+		DFD7DBE61C75B57A0059C1DE /* FBDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDataProvider.m; sourceTree = "<group>"; };
+		DFD89A201C75B69D00CE5A0D /* AllTweetsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTweetsTableViewController.h; sourceTree = "<group>"; };
+		DFD89A211C75B69D00CE5A0D /* AllTweetsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTweetsTableViewController.m; sourceTree = "<group>"; };
+		DFD89A231C75B91600CE5A0D /* PostUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostUIViewController.h; sourceTree = "<group>"; };
+		DFD89A241C75B91600CE5A0D /* PostUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostUIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +73,25 @@
 		DF27C3581C7486D600BAC3A5 /* Federated Birds */ = {
 			isa = PBXGroup;
 			children = (
+				DFD89A201C75B69D00CE5A0D /* AllTweetsTableViewController.h */,
+				DFD89A211C75B69D00CE5A0D /* AllTweetsTableViewController.m */,
+				DFD7DBE51C75B57A0059C1DE /* FBDataProvider.h */,
+				DFD7DBE61C75B57A0059C1DE /* FBDataProvider.m */,
+				DF27C37C1C74ACAA00BAC3A5 /* FBSession.h */,
+				DF27C37D1C74ACAA00BAC3A5 /* FBSession.m */,
 				DF27C35C1C7486D600BAC3A5 /* AppDelegate.h */,
 				DF27C35D1C7486D600BAC3A5 /* AppDelegate.m */,
-				DF27C35F1C7486D600BAC3A5 /* FirstViewController.h */,
-				DF27C3601C7486D600BAC3A5 /* FirstViewController.m */,
-				DF27C3621C7486D600BAC3A5 /* SecondViewController.h */,
-				DF27C3631C7486D600BAC3A5 /* SecondViewController.m */,
 				DF27C3651C7486D600BAC3A5 /* Main.storyboard */,
 				DF27C3681C7486D600BAC3A5 /* Assets.xcassets */,
 				DF27C36A1C7486D600BAC3A5 /* LaunchScreen.storyboard */,
 				DF27C36D1C7486D600BAC3A5 /* Info.plist */,
 				DF27C3591C7486D600BAC3A5 /* Supporting Files */,
+				DF27C3731C748A4100BAC3A5 /* CommonTableViewController.h */,
+				DF27C3741C748A4100BAC3A5 /* CommonTableViewController.m */,
+				DF27C3791C74A81500BAC3A5 /* ReadingListTableViewController.h */,
+				DF27C37A1C74A81500BAC3A5 /* ReadingListTableViewController.m */,
+				DFD89A231C75B91600CE5A0D /* PostUIViewController.h */,
+				DFD89A241C75B91600CE5A0D /* PostUIViewController.m */,
 			);
 			path = "Federated Birds";
 			sourceTree = "<group>";
@@ -154,10 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF27C3641C7486D600BAC3A5 /* SecondViewController.m in Sources */,
 				DF27C35E1C7486D600BAC3A5 /* AppDelegate.m in Sources */,
-				DF27C3611C7486D600BAC3A5 /* FirstViewController.m in Sources */,
+				DF27C37E1C74ACAA00BAC3A5 /* FBSession.m in Sources */,
 				DF27C35B1C7486D600BAC3A5 /* main.m in Sources */,
+				DF27C3751C748A4100BAC3A5 /* CommonTableViewController.m in Sources */,
+				DFD89A251C75B91600CE5A0D /* PostUIViewController.m in Sources */,
+				DFD89A221C75B69D00CE5A0D /* AllTweetsTableViewController.m in Sources */,
+				DF27C37B1C74A81500BAC3A5 /* ReadingListTableViewController.m in Sources */,
+				DFD7DBE71C75B57A0059C1DE /* FBDataProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Federated Birds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.snios.Federated-Birds";
@@ -278,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Federated Birds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.snios.Federated-Birds";
@@ -304,6 +330,7 @@
 				DF27C3721C7486D600BAC3A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
